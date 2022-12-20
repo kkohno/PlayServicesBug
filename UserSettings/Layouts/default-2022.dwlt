@@ -1,0 +1,3652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 2523
+    y: 317
+    width: 868
+    height: 597
+  m_ShowMode: 0
+  m_Title: Package Manager
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 8
+    y: 51
+    width: 1904
+    height: 980
+  m_ShowMode: 4
+  m_Title: Console
+  m_RootView: {fileID: 12}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: PackageManagerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 868
+    height: 597
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 868
+    height: 597
+  m_MinSize: {x: 800, y: 271}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 15
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1904
+    height: 930
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 49
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 492
+    y: 0
+    width: 1179
+    height: 539
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 28}
+  m_Panes:
+  - {fileID: 28}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 391
+    width: 1671
+    height: 539
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 137
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 15}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1904
+    height: 930
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 50
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1671
+    y: 0
+    width: 233
+    height: 930
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 25}
+  m_Panes:
+  - {fileID: 25}
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 460
+    height: 391
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 26}
+  m_Panes:
+  - {fileID: 26}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 492
+    height: 539
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 24}
+  m_Panes:
+  - {fileID: 24}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 5}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1904
+    height: 980
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1904
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 960
+    width: 1904
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 16}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1671
+    height: 930
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 51
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 17}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1671
+    height: 391
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 52
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectSettingsWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 460
+    y: 0
+    width: 1211
+    height: 391
+  m_MinSize: {x: 312, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 21}
+  - {fileID: 20}
+  - {fileID: 19}
+  - {fileID: 22}
+  - {fileID: 27}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2523
+    y: 317
+    width: 868
+    height: 576
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13855, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Preferences
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 374
+    y: 73
+    width: 981
+    height: 538
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 135}
+  m_Scope: 0
+  m_SplitterFlex: 0.2
+  m_SearchText: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 71137e95
+    m_LastClickedID: -1786899599
+    m_ExpandedIDs: 2956c29689577ec10000000001fecd11
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 468
+    y: 81
+    width: 1209
+    height: 370
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 541}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
+  m_SearchText: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4dcf9b58
+    m_LastClickedID: 1486606157
+    m_ExpandedIDs: a01a5fa6213269b2000000007a363d4b89bb1962
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 640, y: 580}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Build Settings
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 464
+    y: 73
+    width: 1219
+    height: 538
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2294
+    y: 73
+    width: 981
+    height: 538
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -176, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 0
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 1
+      layout: 0
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: AINavigationOverlay
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+  m_WindowGUID: 45f43bf099ad1aa4887bcc8f87417fa8
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3309
+    y: 73
+    width: 530
+    height: 918
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 4914
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 636
+    - 212
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 848
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 23}
+    m_NewResultList:
+    - id: 1087
+      uniqueId: '[Pixel Combats 2][suite]'
+      name: Pixel Combats 2
+      fullName: Pixel Combats 2
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1119
+      uniqueId: '[PixelCombats.ApiImpl.Tests.dll][suite]'
+      name: PixelCombats.ApiImpl.Tests.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.ApiImpl.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1087
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1120
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/[PixelCombats][suite]
+      name: PixelCombats
+      fullName: PixelCombats
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1119
+      parentUniqueId: '[PixelCombats.ApiImpl.Tests.dll][suite]'
+    - id: 1121
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+      name: ApiImplTests
+      fullName: PixelCombats.ApiImplTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1120
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/[PixelCombats][suite]
+    - id: 1118
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+      name: Areas
+      fullName: PixelCombats.ApiImplTests.Areas.SetUpClass
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1121
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1102
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+      name: AreaPlayerTriggersTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1103
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreaPlayerTriggersTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.MakeTrigger]
+      name: MakeTrigger
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.MakeTrigger
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+    - id: 1104
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreaPlayerTriggersTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.SetArea]
+      name: SetArea
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.SetArea
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+    - id: 1105
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+      name: AreasTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1107
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddRange]
+      name: AddRange
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddRange
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1113
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddRangeAddTag]
+      name: AddRangeAddTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddRangeAddTag
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1110
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddTag]
+      name: AddTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddTag
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1112
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetByTags]
+      name: GetByTags
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetByTags
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1109
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetEnumeratorTest]
+      name: GetEnumeratorTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetEnumeratorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1106
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetMapRangeHandler]
+      name: GetMapRangeHandler
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetMapRangeHandler
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1108
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.RemoveRange]
+      name: RemoveRange
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.RemoveRange
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1111
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.RemoveTag]
+      name: RemoveTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.RemoveTag
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1105
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1114
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+      name: AreasViewTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1116
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.EventChainTest]
+      name: EventChainTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.EventChainTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1114
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1117
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.EventForPlayerFromRoom]
+      name: EventForPlayerFromRoom
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.EventForPlayerFromRoom
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1114
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1115
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.GetViewTest]
+      name: GetViewTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.GetViewTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1114
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1123
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction][suite]
+      name: Prediction
+      fullName: PixelCombats.ApiImplTests.Prediction
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1121
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1100
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests][suite]
+      name: PredictionTests
+      fullName: PixelCombats.ApiImplTests.Prediction.PredictionTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1123
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction][suite]
+    - id: 1101
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/PredictionTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests.PredictionOneEventTest]
+      name: PredictionOneEventTest
+      fullName: PixelCombats.ApiImplTests.Prediction.PredictionTests.PredictionOneEventTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1100
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests][suite]
+    - id: 1122
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+      name: PropertiesContexted
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1121
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1088
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+      name: ContextedPropertiesSetviceTest
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1122
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+    - id: 1093
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextProperty]
+      name: PlayerContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1094
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChain]
+      name: PlayerContextPropertyChain
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChain
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1095
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChainEvent]
+      name: PlayerContextPropertyChainEvent
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChainEvent
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1089
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.RoomContextProperty]
+      name: RoomContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.RoomContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1090
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextProperty]
+      name: TeamContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1091
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChain]
+      name: TeamContextPropertyChain
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChain
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1092
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChainEvent]
+      name: TeamContextPropertyChainEvent
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChainEvent
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1088
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1096
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+      name: ContextedPropertiesSetviceTestPeace
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1122
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+    - id: 1099
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.PlayerContextProperty]
+      name: PlayerContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.PlayerContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1096
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1097
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.RoomContextProperty]
+      name: RoomContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.RoomContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1096
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1098
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.TeamContextProperty]
+      name: TeamContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.TeamContextProperty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1096
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1127
+      uniqueId: '[PixelCombats.Realtime.Photon.Tests][C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.Realtime.Photon.Tests.dll][suite]'
+      name: PixelCombats.Realtime.Photon.Tests.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.Realtime.Photon.Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1087
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1125
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/[PixelCombats.Realtime.Photon.Tests][RoomPropsTests][suite]
+      name: RoomPropsTests
+      fullName: RoomPropsTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1127
+      parentUniqueId: '[PixelCombats.Realtime.Photon.Tests][C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.Realtime.Photon.Tests.dll][suite]'
+    - id: 1126
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/RoomPropsTests/[PixelCombats.Realtime.Photon.Tests][RoomPropsTests.MapListIdTest]
+      name: MapListIdTest
+      fullName: RoomPropsTests.MapListIdTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1125
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/[PixelCombats.Realtime.Photon.Tests][RoomPropsTests][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 8}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0e8ddec1dcacb7d0247e88df1e091becb161dbf40e7b09fc45ad36fe695410028e4dd510120c4421d9a32e394da22b3e3a570b475cb4cb54b8a36562ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 23}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Pixel Combats 2][suite]'
+      name: Pixel Combats 2
+      fullName: Pixel Combats 2
+      resultStatus: 2
+      duration: 0.5616227
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1008
+      uniqueId: '[Assembly-CSharp-Editor.dll][suite]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 0.083325
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1009
+      uniqueId: Assembly-CSharp-Editor.dll/[Assets][suite]
+      name: Assets
+      fullName: Assets
+      resultStatus: 1
+      duration: 0.0401381
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[Assembly-CSharp-Editor.dll][suite]'
+    - id: 1010
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/[PixelCombats][suite]
+      name: PixelCombats
+      fullName: Assets.PixelCombats
+      resultStatus: 1
+      duration: 0.0398039
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assets][suite]
+    - id: 1011
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/[WebApi][suite]
+      name: WebApi
+      fullName: Assets.PixelCombats.WebApi
+      resultStatus: 1
+      duration: 0.0356873
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/[PixelCombats][suite]
+    - id: 1012
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/[Editor][suite]
+      name: Editor
+      fullName: Assets.PixelCombats.WebApi.Editor
+      resultStatus: 1
+      duration: 0.0315431
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/[WebApi][suite]
+    - id: 1013
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests][suite]
+      name: Tests
+      fullName: Assets.PixelCombats.WebApi.Editor.Tests
+      resultStatus: 1
+      duration: 0.0274739
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/[Editor][suite]
+    - id: 1001
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/Tests/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests][suite]
+      name: TextValidatorsTests
+      fullName: Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests
+      resultStatus: 1
+      duration: 0.0223749
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests][suite]
+    - id: 1003
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/Tests/TextValidatorsTests/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests.FileNameValidatorTest]
+      name: FileNameValidatorTest
+      fullName: Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests.FileNameValidatorTest
+      resultStatus: 1
+      duration: 0.0099066
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/Tests/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests][suite]
+    - id: 1002
+      uniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/Tests/TextValidatorsTests/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests.RichTextRemoverTest]
+      name: RichTextRemoverTest
+      fullName: Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests.RichTextRemoverTest
+      resultStatus: 1
+      duration: 0.0014993
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/Assets/PixelCombats/WebApi/Editor/Tests/[Assembly-CSharp-Editor][Assets.PixelCombats.WebApi.Editor.Tests.TextValidatorsTests][suite]
+    - id: 1014
+      uniqueId: Assembly-CSharp-Editor.dll/[KR_ShooterEngine][suite]
+      name: KR_ShooterEngine
+      fullName: KR_ShooterEngine
+      resultStatus: 1
+      duration: 0.0425264
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[Assembly-CSharp-Editor.dll][suite]'
+    - id: 1015
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/[Player][suite]
+      name: Player
+      fullName: KR_ShooterEngine.Player
+      resultStatus: 1
+      duration: 0.0389298
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: Assembly-CSharp-Editor.dll/[KR_ShooterEngine][suite]
+    - id: 1016
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/[Editor][suite]
+      name: Editor
+      fullName: KR_ShooterEngine.Player.Editor
+      resultStatus: 1
+      duration: 0.0382805
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/[Player][suite]
+    - id: 1017
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests][suite]
+      name: Tests
+      fullName: KR_ShooterEngine.Player.Editor.Tests
+      resultStatus: 1
+      duration: 0.0345976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/[Editor][suite]
+    - id: 1004
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests][suite]
+      name: CompressionUtilTests
+      fullName: KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests
+      resultStatus: 1
+      duration: 0.0304243
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests][suite]
+    - id: 1006
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/CompressionUtilTests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.GetAngleFromByte]
+      name: GetAngleFromByte
+      fullName: KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.GetAngleFromByte
+      resultStatus: 1
+      duration: 0.001557
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests][suite]
+    - id: 1005
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/CompressionUtilTests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.GetByteFromAngle]
+      name: GetByteFromAngle
+      fullName: KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.GetByteFromAngle
+      resultStatus: 1
+      duration: 0.001789
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests][suite]
+    - id: 1007
+      uniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/CompressionUtilTests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.SerializerTest]
+      name: SerializerTest
+      fullName: KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests.SerializerTest
+      resultStatus: 1
+      duration: 0.0223859
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Assembly-CSharp-Editor.dll/KR_ShooterEngine/Player/Editor/Tests/[Assembly-CSharp-Editor][KR_ShooterEngine.Player.Editor.Tests.CompressionUtilTests][suite]
+    - id: 1049
+      uniqueId: '[PixelCombats.ApiImpl.Tests.dll][suite]'
+      name: PixelCombats.ApiImpl.Tests.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.ApiImpl.Tests.dll
+      resultStatus: 2
+      duration: 0.3587342
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1050
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/[PixelCombats][suite]
+      name: PixelCombats
+      fullName: PixelCombats
+      resultStatus: 2
+      duration: 0.3559797
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1049
+      parentUniqueId: '[PixelCombats.ApiImpl.Tests.dll][suite]'
+    - id: 1051
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+      name: ApiImplTests
+      fullName: PixelCombats.ApiImplTests
+      resultStatus: 2
+      duration: 0.3552118
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1050
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/[PixelCombats][suite]
+    - id: 1048
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+      name: Areas
+      fullName: PixelCombats.ApiImplTests.Areas.SetUpClass
+      resultStatus: 2
+      duration: 0.2273321
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1032
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+      name: AreaPlayerTriggersTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests
+      resultStatus: 2
+      duration: 0.1606526
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1033
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreaPlayerTriggersTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.MakeTrigger]
+      name: MakeTrigger
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.MakeTrigger
+      resultStatus: 2
+      duration: 0.1532799
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: "TEST TearDownGameMode\r\n\u0421\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435
+        \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F: LoginProcess\r\n"
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests+<MakeTrigger>d__8.MoveNext
+        () [0x0003a] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreaPlayerTriggersTests.cs:45
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+    - id: 1034
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreaPlayerTriggersTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.SetArea]
+      name: SetArea
+      fullName: PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests.SetArea
+      resultStatus: 2
+      duration: 0.0060225
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests+<SetArea>d__9.MoveNext
+        () [0x0002e] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreaPlayerTriggersTests.cs:63
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreaPlayerTriggersTests][suite]
+    - id: 1035
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+      name: AreasTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests
+      resultStatus: 2
+      duration: 0.0417006
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1037
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddRange]
+      name: AddRange
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddRange
+      resultStatus: 2
+      duration: 0.005038
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<AddRange>d__5.MoveNext
+        () [0x00057] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:64
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1043
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddRangeAddTag]
+      name: AddRangeAddTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddRangeAddTag
+      resultStatus: 2
+      duration: 0.0046858
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<AddRangeAddTag>d__11.MoveNext
+        () [0x00057] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:317
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1040
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.AddTag]
+      name: AddTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.AddTag
+      resultStatus: 2
+      duration: 0.0044544
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<AddTag>d__8.MoveNext
+        () [0x00057] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:149
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1042
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetByTags]
+      name: GetByTags
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetByTags
+      resultStatus: 2
+      duration: 0.0045645
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<GetByTags>d__10.MoveNext
+        () [0x00070] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:252
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1039
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetEnumeratorTest]
+      name: GetEnumeratorTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetEnumeratorTest
+      resultStatus: 2
+      duration: 0.0048092
+      messages: 'System.ArgumentNullException : Value cannot be null.
+
+        Parameter
+        name: source'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at System.Linq.Enumerable.Count[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source) [0x0000d] in <5daa034a65ef4e92beb94b6ef26af36a>:0 \r\n  at PixelCombats.ApiImplTests.Areas.AreasTests+<GetEnumeratorTest>d__7.MoveNext
+        () [0x00023] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:131
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1036
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.GetMapRangeHandler]
+      name: GetMapRangeHandler
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.GetMapRangeHandler
+      resultStatus: 2
+      duration: 0.0055223
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<GetMapRangeHandler>d__4.MoveNext
+        () [0x00057] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:38
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1038
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.RemoveRange]
+      name: RemoveRange
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.RemoveRange
+      resultStatus: 2
+      duration: 0.004285
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<RemoveRange>d__6.MoveNext
+        () [0x00023] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:105
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1041
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests.RemoveTag]
+      name: RemoveTag
+      fullName: PixelCombats.ApiImplTests.Areas.AreasTests.RemoveTag
+      resultStatus: 2
+      duration: 0.0041278
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasTests+<RemoveTag>d__9.MoveNext
+        () [0x0003f] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasTests.cs:194
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasTests][suite]
+    - id: 1044
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+      name: AreasViewTests
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests
+      resultStatus: 2
+      duration: 0.0162375
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.SetUpClass][suite]
+    - id: 1046
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.EventChainTest]
+      name: EventChainTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.EventChainTest
+      resultStatus: 2
+      duration: 0.0046184
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasViewTests+<EventChainTest>d__10.MoveNext
+        () [0x0004d] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasViewTests.cs:132
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1047
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.EventForPlayerFromRoom]
+      name: EventForPlayerFromRoom
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.EventForPlayerFromRoom
+      resultStatus: 2
+      duration: 0.0042224
+      messages: 'System.ArgumentNullException : Value cannot be null.
+
+        Parameter
+        name: source'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source, System.Boolean& found) [0x0000d] in <5daa034a65ef4e92beb94b6ef26af36a>:0
+        \r\n  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source) [0x00000] in <5daa034a65ef4e92beb94b6ef26af36a>:0 \r\n  at PixelCombats.ApiImplTests.Areas.AreasViewTests+<EventForPlayerFromRoom>d__11.MoveNext
+        () [0x00065] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasViewTests.cs:192
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1045
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/AreasViewTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests.GetViewTest]
+      name: GetViewTest
+      fullName: PixelCombats.ApiImplTests.Areas.AreasViewTests.GetViewTest
+      resultStatus: 2
+      duration: 0.0045094
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.Areas.AreasViewTests+<GetViewTest>d__9.MoveNext
+        () [0x0003f] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\Areas\\AreasViewTests.cs:49
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Areas/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Areas.AreasViewTests][suite]
+    - id: 1053
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction][suite]
+      name: Prediction
+      fullName: PixelCombats.ApiImplTests.Prediction
+      resultStatus: 2
+      duration: 0.0199949
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1030
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests][suite]
+      name: PredictionTests
+      fullName: PixelCombats.ApiImplTests.Prediction.PredictionTests
+      resultStatus: 2
+      duration: 0.0178745
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction][suite]
+    - id: 1031
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/PredictionTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests.PredictionOneEventTest]
+      name: PredictionOneEventTest
+      fullName: PixelCombats.ApiImplTests.Prediction.PredictionTests.PredictionOneEventTest
+      resultStatus: 2
+      duration: 0.0152929
+      messages: 'Unhandled log message: ''[Error] Operation LeaveRoom (254) not allowed
+        on current server (MasterServer)''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'TEST TearDownGameMode
+
+        PhotonNetwork.CurrentRoom is null.
+        You don''t have to call LeaveRoom() when you''re not in one. State: PeerCreated
+
+        Operation
+        LeaveRoom (254) not allowed on current server (MasterServer)
+
+        TEST
+        TearDownGameMode
+
+'
+      stacktrace: 'Photon.Realtime.LoadBalancingClient:DebugReturn (ExitGames.Client.Photon.DebugLevel,string)
+        (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2573)
+
+        Photon.Realtime.LoadBalancingClient:CheckIfOpCanBeSent
+        (byte,Photon.Realtime.ServerConnection,string) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2487)
+
+        Photon.Realtime.LoadBalancingClient:OpLeaveRoom
+        (bool,bool) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:1921)
+
+        Photon.Pun.PhotonNetwork:LeaveRoom
+        (bool) (at Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs:2044)
+
+        PixelCombats.ApiImplTests.TestFramework.GameModeSceneTestSetup/<StopGameProcess>d__18:MoveNext
+        () (at Assets/PixelCombats/ApiImplTests/Scripts/TestFramework/GameModeSceneTestSetup.cs:72)
+
+        UnityEngine.UnitySynchronizationContext:ExecuteTasks
+        ()
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/Prediction/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.Prediction.PredictionTests][suite]
+    - id: 1052
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+      name: PropertiesContexted
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted
+      resultStatus: 2
+      duration: 0.1033329
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests][suite]
+    - id: 1018
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+      name: ContextedPropertiesSetviceTest
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest
+      resultStatus: 2
+      duration: 0.0732472
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1052
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+    - id: 1023
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextProperty]
+      name: PlayerContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextProperty
+      resultStatus: 2
+      duration: 0.0098041
+      messages: 'SetUp : Unhandled log message: ''[Error] Operation LeaveRoom (254)
+        not allowed on current server (MasterServer)''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'TEST TearDownGameMode
+
+        PhotonNetwork.CurrentRoom is null.
+        You don''t have to call LeaveRoom() when you''re not in one. State: PeerCreated
+
+        Operation
+        LeaveRoom (254) not allowed on current server (MasterServer)
+
+        TEST
+        TearDownGameMode
+
+'
+      stacktrace: 'Photon.Realtime.LoadBalancingClient:DebugReturn (ExitGames.Client.Photon.DebugLevel,string)
+        (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2573)
+
+        Photon.Realtime.LoadBalancingClient:CheckIfOpCanBeSent
+        (byte,Photon.Realtime.ServerConnection,string) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2487)
+
+        Photon.Realtime.LoadBalancingClient:OpLeaveRoom
+        (bool,bool) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:1921)
+
+        Photon.Pun.PhotonNetwork:LeaveRoom
+        (bool) (at Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs:2044)
+
+        PixelCombats.ApiImplTests.TestFramework.GameModeSceneTestSetup/<StopGameProcess>d__18:MoveNext
+        () (at Assets/PixelCombats/ApiImplTests/Scripts/TestFramework/GameModeSceneTestSetup.cs:72)
+
+        UnityEngine.UnitySynchronizationContext:ExecuteTasks
+        ()
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1024
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChain]
+      name: PlayerContextPropertyChain
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChain
+      resultStatus: 2
+      duration: 0.0113184
+      messages: 'System.ArgumentNullException : Value cannot be null.
+
+        Parameter
+        name: source'
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: "  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source, System.Boolean& found) [0x0000d] in <5daa034a65ef4e92beb94b6ef26af36a>:0
+        \r\n  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source) [0x00000] in <5daa034a65ef4e92beb94b6ef26af36a>:0 \r\n  at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<PlayerContextPropertyChain>d__9.MoveNext
+        () [0x0004e] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\PropertiesContexted\\ContextedPropertiesSetviceTest.cs:205
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1025
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChainEvent]
+      name: PlayerContextPropertyChainEvent
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.PlayerContextPropertyChainEvent
+      resultStatus: 2
+      duration: 0.0105391
+      messages: 'System.ArgumentNullException : Value cannot be null.
+
+        Parameter
+        name: source'
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: "  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source, System.Boolean& found) [0x0000d] in <5daa034a65ef4e92beb94b6ef26af36a>:0
+        \r\n  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T]
+        source) [0x00000] in <5daa034a65ef4e92beb94b6ef26af36a>:0 \r\n  at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<PlayerContextPropertyChainEvent>d__10.MoveNext
+        () [0x0004e] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\PropertiesContexted\\ContextedPropertiesSetviceTest.cs:299
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1019
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.RoomContextProperty]
+      name: RoomContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.RoomContextProperty
+      resultStatus: 2
+      duration: 0.0091271
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: 'at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<RoomContextProperty>d__4.MoveNext
+        () [0x00023] in C:\repos\PixelCombats\PixelCombatsClient\Assets\PixelCombats\ApiImplTests\Scripts\Tests\PropertiesContexted\ContextedPropertiesSetviceTest.cs:29
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\repos\PixelCombats\PixelCombatsClient\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1020
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextProperty]
+      name: TeamContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextProperty
+      resultStatus: 2
+      duration: 0.0096398
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: 'at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<TeamContextProperty>d__5.MoveNext
+        () [0x00023] in C:\repos\PixelCombats\PixelCombatsClient\Assets\PixelCombats\ApiImplTests\Scripts\Tests\PropertiesContexted\ContextedPropertiesSetviceTest.cs:59
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\repos\PixelCombats\PixelCombatsClient\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1021
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChain]
+      name: TeamContextPropertyChain
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChain
+      resultStatus: 2
+      duration: 0.0093759
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: 'at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<TeamContextPropertyChain>d__6.MoveNext
+        () [0x00023] in C:\repos\PixelCombats\PixelCombatsClient\Assets\PixelCombats\ApiImplTests\Scripts\Tests\PropertiesContexted\ContextedPropertiesSetviceTest.cs:91
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\repos\PixelCombats\PixelCombatsClient\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1022
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTest/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChainEvent]
+      name: TeamContextPropertyChainEvent
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest.TeamContextPropertyChainEvent
+      resultStatus: 2
+      duration: 0.0095696
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'TEST TearDownGameMode
+
+        TEST TearDownGameMode
+
+'
+      stacktrace: "  at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest+<TeamContextPropertyChainEvent>d__7.MoveNext
+        () [0x0002e] in C:\\repos\\PixelCombats\\PixelCombatsClient\\Assets\\PixelCombats\\ApiImplTests\\Scripts\\Tests\\PropertiesContexted\\ContextedPropertiesSetviceTest.cs:140
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\\repos\\PixelCombats\\PixelCombatsClient\\Library\\PackageCache\\com.unity.test-framework@1.1.33\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTest][suite]
+    - id: 1026
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+      name: ContextedPropertiesSetviceTestPeace
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace
+      resultStatus: 2
+      duration: 0.0263604
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1052
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted][suite]
+    - id: 1029
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.PlayerContextProperty]
+      name: PlayerContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.PlayerContextProperty
+      resultStatus: 2
+      duration: 0.0048939
+      messages: 'Unhandled log message: ''[Error] Operation LeaveRoom (254) not allowed
+        on current server (MasterServer)''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'TEST TearDownGameMode
+
+        PhotonNetwork.CurrentRoom is null.
+        You don''t have to call LeaveRoom() when you''re not in one. State: PeerCreated
+
+        Operation
+        LeaveRoom (254) not allowed on current server (MasterServer)
+
+'
+      stacktrace: 'Photon.Realtime.LoadBalancingClient:DebugReturn (ExitGames.Client.Photon.DebugLevel,string)
+        (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2573)
+
+        Photon.Realtime.LoadBalancingClient:CheckIfOpCanBeSent
+        (byte,Photon.Realtime.ServerConnection,string) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2487)
+
+        Photon.Realtime.LoadBalancingClient:OpLeaveRoom
+        (bool,bool) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:1921)
+
+        Photon.Pun.PhotonNetwork:LeaveRoom
+        (bool) (at Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs:2044)
+
+        PixelCombats.ApiImplTests.TestFramework.GameModeSceneTestSetup/<StopGameProcess>d__18:MoveNext
+        () (at Assets/PixelCombats/ApiImplTests/Scripts/TestFramework/GameModeSceneTestSetup.cs:72)
+
+        UnityEngine.UnitySynchronizationContext:ExecuteTasks
+        ()
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1027
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.RoomContextProperty]
+      name: RoomContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.RoomContextProperty
+      resultStatus: 2
+      duration: 0.0090871
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: 'at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace+<RoomContextProperty>d__7.MoveNext
+        () [0x00023] in C:\repos\PixelCombats\PixelCombatsClient\Assets\PixelCombats\ApiImplTests\Scripts\Tests\PropertiesContexted\ContextedPropertiesSetviceTestPeace.cs:58
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\repos\PixelCombats\PixelCombatsClient\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1028
+      uniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/ContextedPropertiesSetviceTestPeace/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.TeamContextProperty]
+      name: TeamContextProperty
+      fullName: PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace.TeamContextProperty
+      resultStatus: 2
+      duration: 0.0080762
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 'TEST TearDownGameMode
+
+'
+      stacktrace: 'at PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace+<TeamContextProperty>d__8.MoveNext
+        () [0x0002e] in C:\repos\PixelCombats\PixelCombatsClient\Assets\PixelCombats\ApiImplTests\Scripts\Tests\PropertiesContexted\ContextedPropertiesSetviceTestPeace.cs:79
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\repos\PixelCombats\PixelCombatsClient\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PixelCombats.ApiImpl.Tests.dll/PixelCombats/ApiImplTests/PropertiesContexted/[PixelCombats.ApiImpl.Tests][PixelCombats.ApiImplTests.PropertiesContexted.ContextedPropertiesSetviceTestPeace][suite]
+    - id: 1020
+      uniqueId: '[PixelCombats.PrivateApi.Impl.Tests.dll][suite]'
+      name: PixelCombats.PrivateApi.Impl.Tests.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.PrivateApi.Impl.Tests.dll
+      resultStatus: 1
+      duration: 0.0457452
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1021
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/[PixelCombats][suite]
+      name: PixelCombats
+      fullName: PixelCombats
+      resultStatus: 1
+      duration: 0.0427488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: '[PixelCombats.PrivateApi.Impl.Tests.dll][suite]'
+    - id: 1022
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/[PrivateApiImpl][suite]
+      name: PrivateApiImpl
+      fullName: PixelCombats.PrivateApiImpl
+      resultStatus: 1
+      duration: 0.0397576
+      messages: 
+      output: 'PhotonNetwork.CurrentRoom is null. You don''t have to call LeaveRoom()
+        when you''re not in one. State: PeerCreated
+
+        Operation LeaveRoom
+        (254) not allowed on current server (MasterServer)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1021
+      parentUniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/[PixelCombats][suite]
+    - id: 1023
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/[Tests][suite]
+      name: Tests
+      fullName: PixelCombats.PrivateApiImpl.Tests
+      resultStatus: 1
+      duration: 0.0355953
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1022
+      parentUniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/[PrivateApiImpl][suite]
+    - id: 1024
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/Tests/[PixelCombats.PrivateApi.Impl.Tests][PixelCombats.PrivateApiImpl.Tests.Analytics][suite]
+      name: Analytics
+      fullName: PixelCombats.PrivateApiImpl.Tests.Analytics
+      resultStatus: 1
+      duration: 0.0333456
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1023
+      parentUniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/[Tests][suite]
+    - id: 1018
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/Tests/Analytics/[PixelCombats.PrivateApi.Impl.Tests][PixelCombats.PrivateApiImpl.Tests.Analytics.AnalyticsTests][suite]
+      name: AnalyticsTests
+      fullName: PixelCombats.PrivateApiImpl.Tests.Analytics.AnalyticsTests
+      resultStatus: 1
+      duration: 0.0296462
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/Tests/[PixelCombats.PrivateApi.Impl.Tests][PixelCombats.PrivateApiImpl.Tests.Analytics][suite]
+    - id: 1019
+      uniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/Tests/Analytics/AnalyticsTests/[PixelCombats.PrivateApi.Impl.Tests][PixelCombats.PrivateApiImpl.Tests.Analytics.AnalyticsTests.WeaponTypesSerialization]
+      name: WeaponTypesSerialization
+      fullName: PixelCombats.PrivateApiImpl.Tests.Analytics.AnalyticsTests.WeaponTypesSerialization
+      resultStatus: 1
+      duration: 0.0195225
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PixelCombats.PrivateApi.Impl.Tests.dll/PixelCombats/PrivateApiImpl/Tests/Analytics/[PixelCombats.PrivateApi.Impl.Tests][PixelCombats.PrivateApiImpl.Tests.Analytics.AnalyticsTests][suite]
+    - id: 1027
+      uniqueId: '[PixelCombats.Realtime.Photon.Tests.dll][suite]'
+      name: PixelCombats.Realtime.Photon.Tests.dll
+      fullName: C:/repos/PixelCombats/PixelCombatsClient/Library/ScriptAssemblies/PixelCombats.Realtime.Photon.Tests.dll
+      resultStatus: 1
+      duration: 0.0435002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Pixel Combats 2][suite]'
+    - id: 1028
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/[Assets][suite]
+      name: Assets
+      fullName: Assets
+      resultStatus: 1
+      duration: 0.0407826
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1027
+      parentUniqueId: '[PixelCombats.Realtime.Photon.Tests.dll][suite]'
+    - id: 1029
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/[PixelCombats][suite]
+      name: PixelCombats
+      fullName: Assets.PixelCombats
+      resultStatus: 1
+      duration: 0.0405131
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1028
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/[Assets][suite]
+    - id: 1030
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/[Infrastructure][suite]
+      name: Infrastructure
+      fullName: Assets.PixelCombats.Infrastructure
+      resultStatus: 1
+      duration: 0.0366926
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1029
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/[PixelCombats][suite]
+    - id: 1031
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/[Photon][suite]
+      name: Photon
+      fullName: Assets.PixelCombats.Infrastructure.Photon
+      resultStatus: 1
+      duration: 0.0326075
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1030
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/[Infrastructure][suite]
+    - id: 1032
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/Photon/[PixelCombats.Realtime.Photon.Tests][Assets.PixelCombats.Infrastructure.Photon.Tests][suite]
+      name: Tests
+      fullName: Assets.PixelCombats.Infrastructure.Photon.Tests
+      resultStatus: 1
+      duration: 0.0284063
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1031
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/[Photon][suite]
+    - id: 1025
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/Photon/Tests/[PixelCombats.Realtime.Photon.Tests][Assets.PixelCombats.Infrastructure.Photon.Tests.RoomPropsTests][suite]
+      name: RoomPropsTests
+      fullName: Assets.PixelCombats.Infrastructure.Photon.Tests.RoomPropsTests
+      resultStatus: 1
+      duration: 0.0020534
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1032
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/Photon/[PixelCombats.Realtime.Photon.Tests][Assets.PixelCombats.Infrastructure.Photon.Tests][suite]
+    - id: 1026
+      uniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/Photon/Tests/RoomPropsTests/[PixelCombats.Realtime.Photon.Tests][Assets.PixelCombats.Infrastructure.Photon.Tests.RoomPropsTests.MapListIdTest]
+      name: MapListIdTest
+      fullName: Assets.PixelCombats.Infrastructure.Photon.Tests.RoomPropsTests.MapListIdTest
+      resultStatus: 1
+      duration: 0.0011281
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PixelCombats.Realtime.Photon.Tests.dll/Assets/PixelCombats/Infrastructure/Photon/Tests/[PixelCombats.Realtime.Photon.Tests][Assets.PixelCombats.Infrastructure.Photon.Tests.RoomPropsTests][suite]
+    m_ResultText: MapListIdTest (0,001s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 4a860738
+      m_LastClickedID: 940017226
+      m_ExpandedIDs: 4d67b684fe5aac8734f70993f3e3fda3ba7bb5b6dcacb7d0fe0556d4c9a7f2dcb161dbf4bd9e0cf996417bfb69541002f1eacd072f114b08bb11f4098e4dd5100a71103a45612e45be486546e7cd84472ce08a48a1b7ff4c5cb4cb54e0b1f95a85d29d5bdd470a5effffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 8
+    y: 472
+    width: 491
+    height: 518
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders: []
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+  m_ViewMode: 0
+  m_StartGridSize: 16
+  m_LastFolders: []
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\repos\tokensk\PlayServicesBug
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 420}
+    m_SelectedIDs: ba720000
+    m_LastClickedID: 29370
+    m_ExpandedIDs: 00000000cc0b0000045c0000065c0000085c00000a5c00000c5c00000e5c0000105c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000cc0b0000045c0000065c0000085c00000a5c00000c5c00000e5c0000105c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1679
+    y: 81
+    width: 232
+    height: 909
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &26
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 8
+    y: 81
+    width: 459
+    height: 370
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 18fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 10}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &27
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2294
+    y: 73
+    width: 981
+    height: 538
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000006000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 981
+      height: 517
+    m_Scale: {x: 0.4787037, y: 0.4787037}
+    m_Translation: {x: 490.5, y: 258.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1024.6422
+      y: -540
+      width: 2049.2844
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.4787037
+  m_LastWindowPixelSize: {x: 981, y: 538}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &28
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 500
+    y: 472
+    width: 1177
+    height: 518
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
